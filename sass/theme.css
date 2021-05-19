@@ -1,0 +1,19 @@
+body {
+  background-color: #8f9a9e;
+}
+
+.nav-item a {
+  margin: 0 1rem;
+  color: #0c0c0c;
+  text-decoration: none;
+}
+.nav-item a:hover {
+  color: #8c8c8c;
+  text-decoration: underline;
+}
+
+footer .social-network i {
+  font-size: xxx-large;
+}
+
+/*# sourceMappingURL=theme.css.map */
