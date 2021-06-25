@@ -2,8 +2,7 @@
 get_header();
 
 /*
-  Template Name: Categorie
-  Template Category Type: category
+  Template Name: Liste
 */
 
 ?>
@@ -13,9 +12,7 @@ get_header();
     <div class="row g-3 justify-content-center">
       <?php
       $post_slug = get_the_category();
-      $post_slug = $post_slug[0]->name;
       $the_query = new WP_Query(array(
-        'category_name' => $post_slug,
         'posts_per_page' => -1
       ));
       while ($the_query->have_posts()) : $the_query->the_post();
