@@ -19,8 +19,13 @@ Le rôle premier du magazine est d’informer et de présenter les informations 
 - Les lecteurs mensuels du magazine.
 - Les plus jeunes.
 
-## Users-stories
+## Users-stories :
 - "En tant qu'utilisateur, je tiens à consulter mon magazine via mon smartphone."
 - "En tant qu'utilisateur, je tiens à consulter mon magazine comme si je le lisais en format papier."
 - "En tant qu'utilisateur, je tiens à avoir un accès rapide aux différents évènements."
 - "En tant qu'utilisateur, je tiens à consulter la liste des magazines "Le Pays" triés par chronologie."
+
+## Restes à faire :
+Mis à jour le 25/06/2021
+- Consulter un magazine comme si on le lisais en format papier.
+- Faire un accès rapide aux différents évènements via un plugin (Event Calendar)
