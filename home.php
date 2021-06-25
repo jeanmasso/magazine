@@ -2,22 +2,16 @@
 get_header();
 
 /*
-  Template Name: Categorie
-  Template Category Type: category
+  Template Name: Accueil
 */
-
 ?>
 
   <div class="container my-5">
 
     <div class="row g-3 justify-content-center">
       <?php
-      $post_slug = get_the_category();
-      $post_slug = $post_slug[0]->name;
-      var_dump($post_slug);
       $the_query = new WP_Query(array(
-        'category_name' => $post_slug,
-        'posts_per_page' => -1
+        'posts_per_page' => "4"
       ));
       while ($the_query->have_posts()) : $the_query->the_post();
         ?>
@@ -52,10 +46,7 @@ get_header();
       wp_reset_postdata();
       ?>
     </div>
-  </div>
 
   </div>
 
-<?php
-get_footer();
-?>
+<?php get_footer(); ?>
